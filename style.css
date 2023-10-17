@@ -1,0 +1,682 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "gilroy";
+     
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+#main{
+    width: 100%;
+    height: 880%;
+    background-color: #fff;
+    overflow: hidden;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+ 
+#nav1>h3{
+    font-weight: 300;
+    font-size: 15px;
+    color: #1d4130;
+}
+#nav2>h3{
+    font-weight: 300;
+    font-size: 15px;
+    color: #1d4130;
+
+}
+#nav1{
+    width: 50%;
+    height: 100%;
+    border-bottom: 2px solid #1d4130;
+    border-right: 2px solid #1d4130;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav2{
+    width: 50%;
+    height: 100%;
+    border-bottom: 2px solid #1d4130;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#en{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+ 
+#en>h1{
+    font-size: 70px;
+    font-weight: 500;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #1d4130;
+}
+#pr{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 60%;
+     
+}
+ 
+#pr>h3{
+    position: absolute;
+    left: 8%;
+    font-size: 15px;
+    font-weight: 300;
+    color: #1d4130;
+}
+#pr>i{
+    position: absolute;
+    left: 90%;
+    font-size: 80px;
+    font-weight: 100;
+    color: #1d4130;
+}
+#vid{
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+     border-top: 2px solid #1d4130 ;
+    top: 80%;
+     border-bottom:  2px solid #1d4130;
+}
+ 
+video{
+    top: -3.5%;
+    width: 90%;
+    height: 100vh;
+    position: absolute;
+    left: 5%;
+}
+#vid>h3{
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    left: 5%;
+    font-weight: 300;
+    color: #1d4130;
+}
+#vid>h4{
+    position: absolute;
+    top: 90%;
+    font-size: 20px;
+    left: 85%;
+
+    color: #1d4130;
+    font-weight: 300;
+}
+#for{
+    width: 100%;
+    height: 80vh;
+    color: #1d4130;
+    position: absolute;
+    top: 192vh;
+}
+#for>h1{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 500;
+    top: 20%;
+    left: 10%;
+    color: #1d4130;
+    text-align: justify;
+}
+#for>p{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+#im1{
+    position: absolute;
+    top: 280vh;
+    width: 350px;
+    height: 450px;
+    left: 5%;
+    border-radius: 30px;
+}
+
+#im2{
+    position: absolute;
+    top: 280vh;
+    width: 350px;
+    height: 450px;
+    left: 35%;
+    border-radius: 30px;
+}
+
+#im3{
+    position: absolute;
+    top: 280vh;
+    width: 350px;
+    height: 450px;
+    left: 65%;
+    border-radius: 30px;
+}
+#rm1{
+    position: absolute;
+    top: 360vh;
+    width: 350px;
+    height: 70px;
+    left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #1d4130;
+    border-bottom: 2px solid #1d4130;
+    color: #1d4130;
+}
+#rm1>h3:hover{
+    border-bottom:2px solid #1d4130 ;
+}
+#rm2{
+    position: absolute;
+    top: 360vh;
+    width: 350px;
+    height: 70px;
+    left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #1d4130;
+    border-bottom: 2px solid #1d4130;
+    color: #1d4130;
+}
+#rm2>h3:hover{
+    border-bottom:2px solid #1d4130 ;
+}
+#rm3{
+    position: absolute;
+    top: 360vh;
+    width: 350px;
+    height: 70px;
+    left: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #1d4130;
+    border-bottom: 2px solid #1d4130;
+    color: #1d4130;
+}
+#rm3>h3:hover{
+    border-bottom:2px solid #1d4130 ;
+}
+#btn1{
+    position: absolute;
+    top: 390vh;
+    padding: 15px;
+    background-color: #1d4130;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    left: 40%;
+}
+#btm1{
+    width: 100%;
+    height: 100vh;
+    position: absolute;  
+    top: 410vh;
+    border-bottom:2px solid #1d4130 ;
+    border-top: 2px solid #1d4130;
+}
+#btm1>img{
+    position: absolute;
+    width: 550px;
+    height: 450px;
+    top: 10%;
+    right: 5%;
+    border: 2px solid #1d4130;
+    border-radius: 30px;
+}
+#btm1>h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: 500;
+    top: 5%;
+    left: 5%;
+    color: #1d4130;
+}
+#btm1>p{
+    position: absolute;
+    font-weight: 500;
+    top: 45%;
+    color: #1d4130;
+    left: 5%;
+}
+#btm1>button{
+    position: absolute;
+    top: 65%;
+    padding: 15px;
+    background-color: #1d4130;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    left: 5%;
+}
+#mar{
+    position: absolute;
+    top: 508vh;
+    font-size: 70px;
+    font-weight: 600;
+    border-bottom:2px solid #1d4130;
+    width: 100%;
+    height: 70px;
+    color: #1d4130;
+}
+#im4{
+    position: absolute;
+    top:518.5vh;
+    height: 400px;
+    width: 400px;
+    left: -10%;
+    border:2px solid #1d4130 ;
+}
+#im5{
+    position: absolute;
+    top:518.5vh;
+    height: 400px;
+    width: 650px;
+    left: 25%;
+    border:2px solid #1d4130 ;
+}
+#im6{
+    position: absolute;
+    top:518.5vh;
+    height: 400px;
+    width: 258px;
+    left: 80%;
+    border:2px solid #1d4130 ;
+    border-right: none;
+}
+h4{
+    position: absolute;
+    top: 585vh;
+    font-weight: 300;
+    right: 5%;
+    color: #1d4130;
+}
+#btm2{
+    position: absolute;
+    top: 600vh;
+    width: 100%;
+    height: 80vh;
+    border-top: 2px solid #1d4130 ;
+    border-bottom: 2px solid #1d4130 ;
+    background-color: #ebe7e7;
+}
+#btm2>h1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #1d4130;
+}
+#btm2>button{
+    position: absolute;
+    top: 70%;
+    padding: 15px;
+    background-color: #1d4130;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    left: 45%;
+}
+h2{
+    position: absolute;
+    top: 690vh;
+    left: 5%;
+    font-weight: 400;
+    color: #1d4130;
+}
+#mg1{
+    position: absolute;
+    top:700vh ;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1d4130 ;
+}
+#mg2{
+    position: absolute;
+    top:700vh ;
+    left: 23%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1d4130 ;
+}
+#mg3{
+    position: absolute;
+    top:700vh ;
+    left: 42%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1d4130 ;
+}
+#mg4{
+    position: absolute;
+    top:700vh ;
+    left: 61%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1d4130 ;
+}
+#mg5{
+    position: absolute;
+    top:700vh ;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #1d4130 ;
+}
+#on{
+    position: absolute;
+    top: 740vh;
+    font-size: 20px;
+    font-weight: 300;
+    left: 5%;
+    color: #1d4130;
+}
+#of{
+    position: absolute;
+    top: 740vh;
+    font-size: 20px;
+    left: 30%;
+    font-weight: 300;
+    color: #1d4130;
+}
+#neo{
+    position: absolute;
+    top:760vh ;
+    font-size: 30px;
+    border: 2px solid #1d4130;
+    color: #1d4130;
+       
+}
+ #neo1{
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    height: 29.5%;
+    top: 773vh;
+    background-color: #1d4130;
+ }
+ #x1{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: #ffff;
+ }
+#neo1 h3:hover{
+     border-bottom:2px solid #fff ;
+ }
+ #x2{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    left: 40%;
+ }
+ #x3{
+    position: absolute;
+    top: 70%;
+    color: #fff;
+    left: 40%;
+ }
+ #x4{
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    color: #fff;
+ }
+ #btm4{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 802.5vh;
+     border-bottom:2px solid #1d4130  ;
+     border-top:2px solid #1d4130  ;
+ }
+ #ri1>h3:hover{
+    border-bottom:2px solid #fff ;
+ }
+ #left2>h3:hover{
+    border-bottom:2px solid #fff ;
+ }
+ #left2{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 100%;
+    border-left:2px solid #fff ;
+    border-right: 2px solid #fff;
+    display: flex;
+    color: #fff;
+    background-color: #1d4130;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+ #ri1{
+    position: absolute;
+    left: 65%;
+    width: 40%;
+    height: 100%;
+    border-right: 2px solid #fff ;
+    background-color: #1d4130;
+    color:#fff ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+ }
+ 
+ #left1{
+     position: absolute;
+     
+     display: flex;
+     flex-direction: column;
+     background-color: #1d4130;
+     color: #fff;
+     gap: 10px;
+     width: 45%;
+     height: 100%;
+ }
+  
+ #overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     
+ }
+ .over{
+    height: 25vh;
+    width: 100%;
+    background-color: #1d4130;
+    /* border:1px solid black; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+ }
+ .over2{
+    height: 25vh;
+    width: 100%;
+    background-color: #1d4130;
+    /* border:1px solid black; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+ }
+ .over3{
+    height: 25vh;
+    width: 100%;
+    background-color: #1d4130;
+    /* border:1px solid black; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    z-index: 9999;
+ }
+ .over1{
+    height: 25vh;
+    width: 100%;
+    background-color: #1d4130;
+    /* border:1px solid black; */
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+ }
+ /* #ri2{
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid #fff ;
+    background-color: #1d4130;
+    color:#fff 
+    
+ } */
+  #ph1:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf03674928f4adfa39fc_Natroceutics_Footer_Regeneration_thumb_1_Tree-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ph2:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf1658d9570ee5596974_Natroceutics_Footer_Regeneration_thumb_2_Recycle-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ph3:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf2e7f10120ca24ee09e_Natroceutics_Footer_Regeneration_thumb_3_Single-use-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ph4:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf37303a0d9a007aeb26_Natroceutics_Footer_Regeneration_thumb_4_Partners-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ph5:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf42b0b1c1b387e89925_Natroceutics_Footer_Regeneration_thumb_5_Education-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ph6:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c21541c6fe6/639bdf4b914cdc4ae9505b6d_Natroceutics_Footer_Regeneration_thumb_6_Improvement-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 450px;
+    background-size: cover;
+  }
+  #ch1:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637462dfd15e664abbe1ef4d_Natroceutics_Ashwaganda_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }
+  #ch2:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/6374659b4e982aa0c73b6c6d_Natroceutics_Berberine_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch3:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637465a7e06bb95849db14bb_Natroceutics_Curcumin_Complete_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch4:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/63746357cd12f031b5952957_Natroceutics_Curcumin_Fortified_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }
+    #ch5:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/63746361fb7e465332246bfe_Natroceutics_Glutathione_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  } 
+   #ch6:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637465915f327e8ed15e94c1_Natroceutics_Magnesium_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch7:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637462f12d8df2cbd7e4ee10_Natroceutics_Omega3_Fortified_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch8:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/63d0ee8acbdecd09d897dc5b_Natroceutics_Omega3_Pure_Thumb-p-500.jpeg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  } 
+   #ch9:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637463b063943d42efed961f_Natroceutics_Quercetin_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch10:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/6374641b31e718e2074f11dd_Natroceutics_Saffron_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }  
+  #ch11:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/63d0ee9e97974dcc9bbe6012_Natroceutics_Salvestrol_Thumb-p-500.jpeg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  } 
+   #ch12:hover{
+    background-image: url(https://uploads-ssl.webflow.com/63088dc6f3670c45851c6ff7/637463b84ceb740109e22ac9_Natroceutics_VitaminC_Complete_Thumb-p-500.jpg);
+    height: 600px;
+    color: #1d4130;
+    width: 380px;
+    background-size: cover;
+    background-position: center;
+  }
